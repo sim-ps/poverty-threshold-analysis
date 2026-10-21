@@ -1,0 +1,1125 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1015.1742                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='f5b82ae03dbb3deedebb85f43eccc948aa826d4df6b007fe3dea4372b654f8c8' _.fcp.WorkbookFingerprinting.true...creator-author-id='f5b82ae03dbb3deedebb85f43eccc948aa826d4df6b007fe3dea4372b654f8c8' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='f5b82ae03dbb3deedebb85f43eccc948aa826d4df6b007fe3dea4372b654f8c8' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='f5b82ae03dbb3deedebb85f43eccc948aa826d4df6b007fe3dea4372b654f8c8' original-version='18.1' source-build='2026.3.0 (20263.26.1015.1742)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='annual-per-capita-1' inline='true' name='federated.0tls3ey1yw8u1219cmtgw186bpnh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='annual-per-capita-1' name='textscan.1079cu10kl5yo816m71a70t35vh8'>
+            <connection class='textscan' directory='C:/Users/Asus/Desktop/ANN Assignments/Database' filename='annual-per-capita-1.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1079cu10kl5yo816m71a70t35vh8' name='annual-per-capita-1.csv' table='[annual-per-capita-1#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Geolocation' ordinal='0' />
+            <column datatype='integer' name='Annual Per Capita Poverty Threshold (in PhP) 2018' ordinal='1' />
+            <column datatype='integer' name='Annual Per Capita Poverty Threshold (in PhP) 2021' ordinal='2' />
+            <column datatype='integer' name='Annual Per Capita Poverty Threshold (in PhP) 2023' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[annual-per-capita-1.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geolocation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Geolocation]</local-name>
+            <parent-name>[annual-per-capita-1.csv]</parent-name>
+            <remote-alias>Geolocation</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual Per Capita Poverty Threshold (in PhP) 2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual Per Capita Poverty Threshold (in PhP) 2018]</local-name>
+            <parent-name>[annual-per-capita-1.csv]</parent-name>
+            <remote-alias>Annual Per Capita Poverty Threshold (in PhP) 2018</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual Per Capita Poverty Threshold (in PhP) 2021</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual Per Capita Poverty Threshold (in PhP) 2021]</local-name>
+            <parent-name>[annual-per-capita-1.csv]</parent-name>
+            <remote-alias>Annual Per Capita Poverty Threshold (in PhP) 2021</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual Per Capita Poverty Threshold (in PhP) 2023</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual Per Capita Poverty Threshold (in PhP) 2023]</local-name>
+            <parent-name>[annual-per-capita-1.csv]</parent-name>
+            <remote-alias>Annual Per Capita Poverty Threshold (in PhP) 2023</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2018:qk]&quot;' value='2018' />
+          <alias key='&quot;[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2021:qk]&quot;' value='2021' />
+          <alias key='&quot;[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]&quot;' value='2023' />
+        </aliases>
+      </column>
+      <column caption='Threshold 2018' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2018]' role='measure' type='quantitative' />
+      <column caption='Threshold 2021' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2021]' role='measure' type='quantitative' />
+      <column caption='Threshold 2023' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2023]' role='measure' type='quantitative' />
+      <column caption='Geographic Level' datatype='string' name='[Calculation_1350808282189826]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Geolocation] = &quot;PHILIPPINES&quot; THEN &quot;National&quot;&#13;&#10;ELSEIF [Geolocation] IN (&#13;&#10;&quot;National Capital Region (NCR)&quot;,&#13;&#10;&quot;Cordillera Administrative Region (CAR)&quot;,&#13;&#10;&quot;Region I (Ilocos Region)&quot;,&#13;&#10;&quot;Region II (Cagayan Valley)&quot;,&#13;&#10;&quot;Region III (Central Luzon)&quot;,&#13;&#10;&quot;Region IV-A (CALABARZON)&quot;,&#13;&#10;&quot;MAROPA Region&quot;,&#13;&#10;&quot;Region V (Bicol Region)&quot;,&#13;&#10;&quot;Region VI (Western Visayas)&quot;,&#13;&#10;&quot;Negros Island Region (NIR)&quot;,&#13;&#10;&quot;Region VII (Central Visayas)&quot;,&#13;&#10;&quot;Region VIII (Eastern Visayas)&quot;,&#13;&#10;&quot;Region IX (Zamboanga Peninsula)&quot;,&#13;&#10;&quot;Region X (Northern Mindanao)&quot;,&#13;&#10;&quot;Region XI (Davao Region)&quot;,&#13;&#10;&quot;Region XII (SOCCSKSARGEN)&quot;,&#13;&#10;&quot;Region XIII (Caraga)&quot;,&#13;&#10;&quot;Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)&quot;&#13;&#10;) THEN &quot;Region&quot;&#13;&#10;&#13;&#10;ELSEIF CONTAINS([Geolocation], &quot;District&quot;) THEN &quot;District&quot;&#13;&#10;&#13;&#10;ELSEIF [Geolocation] = &quot;Isabela City&quot;&#13;&#10;OR [Geolocation] = &quot;Cotabato City&quot; THEN &quot;City&quot;&#13;&#10;&#13;&#10;ELSE &quot;Province&quot;&#13;&#10;&#13;&#10;END' />
+      </column>
+      <column caption='Absolute Change 2018–2023' datatype='integer' default-format='c&quot;PHP&quot;#,##0;(&quot;PHP&quot;#,##0)' name='[Calculation_1350808285687811]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Annual Per Capita Poverty Threshold (in PhP) 2023]-[Annual Per Capita Poverty Threshold (in PhP) 2018]' />
+      </column>
+      <column datatype='string' name='[Geolocation]' role='dimension' type='nominal' />
+      <column aggregation='None' caption='Threshold 2023 bin' datatype='integer' name='[Threshold 2023 (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='3' formula='[Annual Per Capita Poverty Threshold (in PhP) 2023]' peg='0' size='2000' />
+      </column>
+      <column caption='annual-per-capita-1.csv' datatype='table' name='[__tableau_internal_object_id__].[annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3]' role='measure' type='quantitative' />
+      <column-instance column='[Geolocation]' derivation='None' name='[none:Geolocation:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Annual Per Capita Poverty Threshold (in PhP) 2018]' derivation='Sum' name='[sum:Annual Per Capita Poverty Threshold (in PhP) 2018:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Annual Per Capita Poverty Threshold (in PhP) 2021]' derivation='Sum' name='[sum:Annual Per Capita Poverty Threshold (in PhP) 2021:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Annual Per Capita Poverty Threshold (in PhP) 2023]' derivation='Sum' name='[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]' pivot='key' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Asus/AppData/Local/Temp/TableauTemp/#TableauTemp_0tgp7fi1cmezqm11twp6h06pzard.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/21/2026 07:50:26 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Geolocation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Geolocation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Geolocation</remote-alias>
+              <ordinal>0</ordinal>
+              <family>annual-per-capita-1.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>108</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual Per Capita Poverty Threshold (in PhP) 2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual Per Capita Poverty Threshold (in PhP) 2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual Per Capita Poverty Threshold (in PhP) 2018</remote-alias>
+              <ordinal>1</ordinal>
+              <family>annual-per-capita-1.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>102</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual Per Capita Poverty Threshold (in PhP) 2021</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual Per Capita Poverty Threshold (in PhP) 2021]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual Per Capita Poverty Threshold (in PhP) 2021</remote-alias>
+              <ordinal>2</ordinal>
+              <family>annual-per-capita-1.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>102</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Annual Per Capita Poverty Threshold (in PhP) 2023</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Annual Per Capita Poverty Threshold (in PhP) 2023]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Annual Per Capita Poverty Threshold (in PhP) 2023</remote-alias>
+              <ordinal>3</ordinal>
+              <family>annual-per-capita-1.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>103</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout common-percentage='1' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' user-set-layout-v2='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Geolocation:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Region IV-A (CALABARZON)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Negros Island Region (NIR)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Region VII (Central Visayas)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Region IX (Zamboanga Peninsula)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Region I (Ilocos Region)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cordillera Administrative Region (CAR)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Region XII (SOCCSKSARGEN)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Region II (Cagayan Valley)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Region VIII (Eastern Visayas)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Region X (Northern Mindanao)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Region XIII (Caraga)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Region V (Bicol Region)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Region III (Central Luzon)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MAROPA Region&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Region XI (Davao Region)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Region VI (Western Visayas)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;National Capital Region (NCR)&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Geolocation' />
+        <field-sort-custom-order field='Annual Per Capita Poverty Threshold (in PhP) 2018' />
+        <field-sort-custom-order field='Annual Per Capita Poverty Threshold (in PhP) 2021' />
+        <field-sort-custom-order field='Annual Per Capita Poverty Threshold (in PhP) 2023' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field='Calculation_1350808281337856' />
+        <field-sort-custom-order field='Calculation_1350808282099713' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='annual-per-capita-1.csv' id='annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3'>
+            <properties context=''>
+              <relation connection='textscan.1079cu10kl5yo816m71a70t35vh8' name='annual-per-capita-1.csv' table='[annual-per-capita-1#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Geolocation' ordinal='0' />
+                  <column datatype='integer' name='Annual Per Capita Poverty Threshold (in PhP) 2018' ordinal='1' />
+                  <column datatype='integer' name='Annual Per Capita Poverty Threshold (in PhP) 2021' ordinal='2' />
+                  <column datatype='integer' name='Annual Per Capita Poverty Threshold (in PhP) 2023' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Focused Comparison: Regions III and XII'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000'>Region III’s Threshold Rose Faster Than Region XII’s, 2018–2023</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='annual-per-capita-1' name='federated.0tls3ey1yw8u1219cmtgw186bpnh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tls3ey1yw8u1219cmtgw186bpnh'>
+            <column caption='Threshold 2018' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2018]' role='measure' type='quantitative' />
+            <column caption='Threshold 2021' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2021]' role='measure' type='quantitative' />
+            <column caption='Threshold 2023' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2023]' role='measure' type='quantitative' />
+            <column caption='Geographic Level' datatype='string' name='[Calculation_1350808282189826]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Geolocation] = &quot;PHILIPPINES&quot; THEN &quot;National&quot;&#13;&#10;ELSEIF [Geolocation] IN (&#13;&#10;&quot;National Capital Region (NCR)&quot;,&#13;&#10;&quot;Cordillera Administrative Region (CAR)&quot;,&#13;&#10;&quot;Region I (Ilocos Region)&quot;,&#13;&#10;&quot;Region II (Cagayan Valley)&quot;,&#13;&#10;&quot;Region III (Central Luzon)&quot;,&#13;&#10;&quot;Region IV-A (CALABARZON)&quot;,&#13;&#10;&quot;MAROPA Region&quot;,&#13;&#10;&quot;Region V (Bicol Region)&quot;,&#13;&#10;&quot;Region VI (Western Visayas)&quot;,&#13;&#10;&quot;Negros Island Region (NIR)&quot;,&#13;&#10;&quot;Region VII (Central Visayas)&quot;,&#13;&#10;&quot;Region VIII (Eastern Visayas)&quot;,&#13;&#10;&quot;Region IX (Zamboanga Peninsula)&quot;,&#13;&#10;&quot;Region X (Northern Mindanao)&quot;,&#13;&#10;&quot;Region XI (Davao Region)&quot;,&#13;&#10;&quot;Region XII (SOCCSKSARGEN)&quot;,&#13;&#10;&quot;Region XIII (Caraga)&quot;,&#13;&#10;&quot;Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)&quot;&#13;&#10;) THEN &quot;Region&quot;&#13;&#10;&#13;&#10;ELSEIF CONTAINS([Geolocation], &quot;District&quot;) THEN &quot;District&quot;&#13;&#10;&#13;&#10;ELSEIF [Geolocation] = &quot;Isabela City&quot;&#13;&#10;OR [Geolocation] = &quot;Cotabato City&quot; THEN &quot;City&quot;&#13;&#10;&#13;&#10;ELSE &quot;Province&quot;&#13;&#10;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Geolocation]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1350808282189826]' derivation='None' name='[none:Calculation_1350808282189826:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Geolocation]' derivation='None' name='[none:Geolocation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Annual Per Capita Poverty Threshold (in PhP) 2018]' derivation='Sum' name='[sum:Annual Per Capita Poverty Threshold (in PhP) 2018:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Annual Per Capita Poverty Threshold (in PhP) 2021]' derivation='Sum' name='[sum:Annual Per Capita Poverty Threshold (in PhP) 2021:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Annual Per Capita Poverty Threshold (in PhP) 2023]' derivation='Sum' name='[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2018:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2021:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Calculation_1350808282189826:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1350808282189826:nk]' member='&quot;Region&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Geolocation:nk]' member='&quot;Region III (Central Luzon)&quot;' />
+              <groupfilter function='member' level='[none:Geolocation:nk]' member='&quot;Region XII (SOCCSKSARGEN)&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Calculation_1350808282189826:nk]</column>
+            <column>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[:Measure Names]</column>
+            <column>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[Multiple Values]' scope='rows' value='Annual per capita poverty threshold (PhP per person per year)' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[:Measure Names]' value='200' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[Multiple Values]</rows>
+        <cols>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{7C17A216-1143-41C8-87D6-0A931C4B51A8}' />
+    </worksheet>
+    <worksheet name='National Trend'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='annual-per-capita-1' name='federated.0tls3ey1yw8u1219cmtgw186bpnh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tls3ey1yw8u1219cmtgw186bpnh'>
+            <column caption='Threshold 2018' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2018]' role='measure' type='quantitative' />
+            <column caption='Threshold 2021' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2021]' role='measure' type='quantitative' />
+            <column caption='Threshold 2023' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2023]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Geolocation]' role='dimension' type='nominal' />
+            <column-instance column='[Geolocation]' derivation='None' name='[none:Geolocation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Annual Per Capita Poverty Threshold (in PhP) 2018]' derivation='Sum' name='[sum:Annual Per Capita Poverty Threshold (in PhP) 2018:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Annual Per Capita Poverty Threshold (in PhP) 2021]' derivation='Sum' name='[sum:Annual Per Capita Poverty Threshold (in PhP) 2021:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Annual Per Capita Poverty Threshold (in PhP) 2023]' derivation='Sum' name='[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2018:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2021:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]'>
+            <groupfilter function='member' level='[none:Geolocation:nk]' member='&quot;PHILIPPINES&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]</column>
+            <column>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[Multiple Values]' scope='rows' value='Annual per capita poverty threshold (PhP per person per year)' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[:Measure Names]' value='116' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <text column='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[Multiple Values]</rows>
+        <cols>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{60215097-5A4A-4527-A880-705A63D8D1C3}' />
+    </worksheet>
+    <worksheet name='Regional Change 2018–2023'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Per Capita Poverty Thresholds Increased Across All Regions, 2018–2023</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='annual-per-capita-1' name='federated.0tls3ey1yw8u1219cmtgw186bpnh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tls3ey1yw8u1219cmtgw186bpnh'>
+            <column caption='Threshold 2018' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2018]' role='measure' type='quantitative' />
+            <column caption='Threshold 2023' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2023]' role='measure' type='quantitative' />
+            <column caption='Geographic Level' datatype='string' name='[Calculation_1350808282189826]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Geolocation] = &quot;PHILIPPINES&quot; THEN &quot;National&quot;&#13;&#10;ELSEIF [Geolocation] IN (&#13;&#10;&quot;National Capital Region (NCR)&quot;,&#13;&#10;&quot;Cordillera Administrative Region (CAR)&quot;,&#13;&#10;&quot;Region I (Ilocos Region)&quot;,&#13;&#10;&quot;Region II (Cagayan Valley)&quot;,&#13;&#10;&quot;Region III (Central Luzon)&quot;,&#13;&#10;&quot;Region IV-A (CALABARZON)&quot;,&#13;&#10;&quot;MAROPA Region&quot;,&#13;&#10;&quot;Region V (Bicol Region)&quot;,&#13;&#10;&quot;Region VI (Western Visayas)&quot;,&#13;&#10;&quot;Negros Island Region (NIR)&quot;,&#13;&#10;&quot;Region VII (Central Visayas)&quot;,&#13;&#10;&quot;Region VIII (Eastern Visayas)&quot;,&#13;&#10;&quot;Region IX (Zamboanga Peninsula)&quot;,&#13;&#10;&quot;Region X (Northern Mindanao)&quot;,&#13;&#10;&quot;Region XI (Davao Region)&quot;,&#13;&#10;&quot;Region XII (SOCCSKSARGEN)&quot;,&#13;&#10;&quot;Region XIII (Caraga)&quot;,&#13;&#10;&quot;Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)&quot;&#13;&#10;) THEN &quot;Region&quot;&#13;&#10;&#13;&#10;ELSEIF CONTAINS([Geolocation], &quot;District&quot;) THEN &quot;District&quot;&#13;&#10;&#13;&#10;ELSEIF [Geolocation] = &quot;Isabela City&quot;&#13;&#10;OR [Geolocation] = &quot;Cotabato City&quot; THEN &quot;City&quot;&#13;&#10;&#13;&#10;ELSE &quot;Province&quot;&#13;&#10;&#13;&#10;END' />
+            </column>
+            <column caption='Absolute Change 2018–2023' datatype='integer' default-format='c&quot;PHP&quot;#,##0;(&quot;PHP&quot;#,##0)' name='[Calculation_1350808285687811]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Annual Per Capita Poverty Threshold (in PhP) 2023]-[Annual Per Capita Poverty Threshold (in PhP) 2018]' />
+            </column>
+            <column datatype='string' name='[Geolocation]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1350808282189826]' derivation='None' name='[none:Calculation_1350808282189826:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Geolocation]' derivation='None' name='[none:Geolocation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1350808285687811]' derivation='Sum' name='[sum:Calculation_1350808285687811:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Calculation_1350808282189826:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1350808282189826:nk]' member='&quot;Region&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Calculation_1350808285687811:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Calculation_1350808282189826:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]' value='480' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]</rows>
+        <cols>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Calculation_1350808285687811:qk]</cols>
+      </table>
+      <simple-id uuid='{FA4DE2DD-C892-4F7D-B32D-320759F53FF1}' />
+    </worksheet>
+    <worksheet name='Regional Comparison 2023'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>The 2023 per-person threshold varies across regions</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='annual-per-capita-1' name='federated.0tls3ey1yw8u1219cmtgw186bpnh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tls3ey1yw8u1219cmtgw186bpnh'>
+            <column caption='Threshold 2023' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2023]' role='measure' type='quantitative' />
+            <column caption='Geographic Level' datatype='string' name='[Calculation_1350808282189826]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Geolocation] = &quot;PHILIPPINES&quot; THEN &quot;National&quot;&#13;&#10;ELSEIF [Geolocation] IN (&#13;&#10;&quot;National Capital Region (NCR)&quot;,&#13;&#10;&quot;Cordillera Administrative Region (CAR)&quot;,&#13;&#10;&quot;Region I (Ilocos Region)&quot;,&#13;&#10;&quot;Region II (Cagayan Valley)&quot;,&#13;&#10;&quot;Region III (Central Luzon)&quot;,&#13;&#10;&quot;Region IV-A (CALABARZON)&quot;,&#13;&#10;&quot;MAROPA Region&quot;,&#13;&#10;&quot;Region V (Bicol Region)&quot;,&#13;&#10;&quot;Region VI (Western Visayas)&quot;,&#13;&#10;&quot;Negros Island Region (NIR)&quot;,&#13;&#10;&quot;Region VII (Central Visayas)&quot;,&#13;&#10;&quot;Region VIII (Eastern Visayas)&quot;,&#13;&#10;&quot;Region IX (Zamboanga Peninsula)&quot;,&#13;&#10;&quot;Region X (Northern Mindanao)&quot;,&#13;&#10;&quot;Region XI (Davao Region)&quot;,&#13;&#10;&quot;Region XII (SOCCSKSARGEN)&quot;,&#13;&#10;&quot;Region XIII (Caraga)&quot;,&#13;&#10;&quot;Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)&quot;&#13;&#10;) THEN &quot;Region&quot;&#13;&#10;&#13;&#10;ELSEIF CONTAINS([Geolocation], &quot;District&quot;) THEN &quot;District&quot;&#13;&#10;&#13;&#10;ELSEIF [Geolocation] = &quot;Isabela City&quot;&#13;&#10;OR [Geolocation] = &quot;Cotabato City&quot; THEN &quot;City&quot;&#13;&#10;&#13;&#10;ELSE &quot;Province&quot;&#13;&#10;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Geolocation]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1350808282189826]' derivation='None' name='[none:Calculation_1350808282189826:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Geolocation]' derivation='None' name='[none:Geolocation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Annual Per Capita Poverty Threshold (in PhP) 2023]' derivation='Sum' name='[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Calculation_1350808282189826:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1350808282189826:nk]' member='&quot;Region&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]' direction='DESC' using='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]' />
+          <slices>
+            <column>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Calculation_1350808282189826:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]' value='27' />
+            <format attr='title' class='0' field='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]' scope='cols' value='Annual per capita poverty threshold (PhP per person per year)' />
+            <format attr='auto-subtitle' class='0' field='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]' value='24' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]' value='468' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]</rows>
+        <cols>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[sum:Annual Per Capita Poverty Threshold (in PhP) 2023:qk]</cols>
+      </table>
+      <simple-id uuid='{1122510B-5A0B-4181-B1F4-CB451D33EE40}' />
+    </worksheet>
+    <worksheet name='Regional Distribution 2023'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Most Regions Fall in the PhP 32,000–34,000 Range in 2023</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='annual-per-capita-1' name='federated.0tls3ey1yw8u1219cmtgw186bpnh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tls3ey1yw8u1219cmtgw186bpnh'>
+            <column caption='Threshold 2023' datatype='integer' name='[Annual Per Capita Poverty Threshold (in PhP) 2023]' role='measure' type='quantitative' />
+            <column caption='Geographic Level' datatype='string' name='[Calculation_1350808282189826]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Geolocation] = &quot;PHILIPPINES&quot; THEN &quot;National&quot;&#13;&#10;ELSEIF [Geolocation] IN (&#13;&#10;&quot;National Capital Region (NCR)&quot;,&#13;&#10;&quot;Cordillera Administrative Region (CAR)&quot;,&#13;&#10;&quot;Region I (Ilocos Region)&quot;,&#13;&#10;&quot;Region II (Cagayan Valley)&quot;,&#13;&#10;&quot;Region III (Central Luzon)&quot;,&#13;&#10;&quot;Region IV-A (CALABARZON)&quot;,&#13;&#10;&quot;MAROPA Region&quot;,&#13;&#10;&quot;Region V (Bicol Region)&quot;,&#13;&#10;&quot;Region VI (Western Visayas)&quot;,&#13;&#10;&quot;Negros Island Region (NIR)&quot;,&#13;&#10;&quot;Region VII (Central Visayas)&quot;,&#13;&#10;&quot;Region VIII (Eastern Visayas)&quot;,&#13;&#10;&quot;Region IX (Zamboanga Peninsula)&quot;,&#13;&#10;&quot;Region X (Northern Mindanao)&quot;,&#13;&#10;&quot;Region XI (Davao Region)&quot;,&#13;&#10;&quot;Region XII (SOCCSKSARGEN)&quot;,&#13;&#10;&quot;Region XIII (Caraga)&quot;,&#13;&#10;&quot;Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)&quot;&#13;&#10;) THEN &quot;Region&quot;&#13;&#10;&#13;&#10;ELSEIF CONTAINS([Geolocation], &quot;District&quot;) THEN &quot;District&quot;&#13;&#10;&#13;&#10;ELSEIF [Geolocation] = &quot;Isabela City&quot;&#13;&#10;OR [Geolocation] = &quot;Cotabato City&quot; THEN &quot;City&quot;&#13;&#10;&#13;&#10;ELSE &quot;Province&quot;&#13;&#10;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Geolocation]' role='dimension' type='nominal' />
+            <column aggregation='None' caption='Threshold 2023 bin' datatype='integer' name='[Threshold 2023 (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='3' formula='[Annual Per Capita Poverty Threshold (in PhP) 2023]' peg='0' size='2000' />
+            </column>
+            <column caption='annual-per-capita-1.csv' datatype='table' name='[__tableau_internal_object_id__].[annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1350808282189826]' derivation='None' name='[none:Calculation_1350808282189826:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Threshold 2023 (bin)]' derivation='None' name='[none:Threshold 2023 (bin):ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Calculation_1350808282189826:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1350808282189826:nk]' member='&quot;Region&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Calculation_1350808282189826:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[__tableau_internal_object_id__].[cnt:annual-per-capita-1.csv_8E0D586F1DEF4AFD8750EB64EBC106B3:qk]</rows>
+        <cols>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Threshold 2023 (bin):ok]</cols>
+        <show-full-range>
+          <column>[federated.0tls3ey1yw8u1219cmtgw186bpnh].[Threshold 2023 (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{7BAD94B6-25E2-4B7D-80B8-33CB3A21EEFD}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='National Trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AD769957-F55D-4688-945D-F2D183C888BD}' />
+    </window>
+    <window class='worksheet' name='Regional Comparison 2023'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3E0CFBCA-7CD9-4DBC-BFDA-6F24E6F56269}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Regional Change 2018–2023'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{788C616C-FDFD-4A64-B607-C7B0F2443DE9}' />
+    </window>
+    <window class='worksheet' name='Regional Distribution 2023'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{56DFDBA2-6C2B-4574-8633-7449868E36B6}' />
+    </window>
+    <window class='worksheet' name='Focused Comparison: Regions III and XII'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tls3ey1yw8u1219cmtgw186bpnh].[none:Geolocation:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CD7B0F86-1081-4752-858E-2BDFD7CC8FE3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Regional Change 2018–2023' width='192'>
+      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
+      ok6k3/72t7/9id8S0NnbWieVOiTUd4W+ZILywRb5SotorJtIyIfN5cPrEEF0M9AfY39znU6n
+      jSM2SPNgneNSg0TfEAm/xPbeAbrkpicex2kXCQQCYAoEwyEEBKJ9g9QPN9jPFBi4PE7Qbcfm
+      DuCxi4Q8AkurmxjeLi4lY4iCgaKKDF8aIhqN4ZBUPJEecttvyVdkookekvEI2dQWdc3JcLeP
+      1bUNWvYuJgZiCIKNgN8DQFf/AJX0JulskcHLV/G77Ng9AZwSuHx+3DYJu9NPMgRvVrbBE2W4
+      t4fGSZr9oyLeUIyoV+Dt2jYdKcCVoW4k4bTarzsYItndTTmXJTE0Rv1oj0KpjL+rj/4uLxvr
+      2ygdhdjQKF7JJJboQ61m2d7dp2d0irDPic3lxm23I0gSfq8XAEGQCAX8YPOcLgEKNgJ+9+lF
+      h0QkHkfpKAz09yAC4ViU4/09DnMlIoluPEaDtZ1DRHeEob4uREEkFAogSE5CPg+izYXPbUd0
+      eAh6HIg2B163CzAR7Q564gFahpfemA9EB36fE5vTg8/twOEL4BJNBIeXnoDI8soGTd1Oz8AA
+      Yj1P6vAYXyxxWkdMchHwOACJ7i4vGxs7tHUbiWQ3PUE7K2ubqN5uLifDCIKAV8mz2w6S8Ds4
+      Tm2zl05jehOM9niQ/H0MD/QQ7e5Ba1QJBv24vUF6+5K/zDJoPr3BVrqAIbi4ff827l/Q++g/
+      Hwap9WUOijVEd4R7tyaw/lyfgsbC3DLTM9ex/QTvIWsfwOKvBk1VECQ7kiUAC4tPwwqGs7jQ
+      WAKwuNBYArC40FgCsLjQWAKwuNBYArC40FgCsLjQWAKwuNBYArC40FgCsLjQWAKwuNBYArC4
+      0FgCsLjQWAKwuNBYArC40FgCsLjQWAKwuNBYArC40FgCsLjQWAKwuNBYArC40FgCsLjQWAKw
+      uNBYArC40Pw/kfVi7YA2QswAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
