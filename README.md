@@ -16,8 +16,22 @@ Regional change is calculated as the 2023 threshold minus the 2018 threshold. Th
 ## Tools
 Tableau Public
 
-## AI disclosure
-I used ChatGPT for Tableau guidance and help organizing and checking the analysis. I reviewed the workbook and data and take responsibility for the final project.
+## Chart previews
+
+### National trend
+![National Trend](National%20Trend.png)
+
+### Regional comparison, 2023
+![Regional Comparison 2023](Regional%20Comparison%202023.png)
+
+### Regional change, 2018–2023
+![Regional Change 2018–2023](Regional%20Change%202018%E2%80%932023.png)
+
+### Regional distribution, 2023
+![Regional Distribution 2023](Regional%20Distribution%202023.png)
+
+### Focused comparison: Regions III and XII
+![Focused Comparison: Regions III and XII](Focused%20Comparison_%20Regions%20III%20and%20XII.png)
 
 ## Data source
 Philippine Statistics Authority, *2023 Full-Year Official Poverty Statistics of the Philippines*, Table 2: [official report](https://psa.gov.ph/sites/default/files/phdsd/2023%20FY%20Official%20PovStat%20Publication_15August2024.pdf).
